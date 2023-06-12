@@ -284,9 +284,7 @@ color: #000000;
 box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 border-radius: 5px;
 width: 380px;
-height: 473px;
-padding: 255px 40px 40px 40px;
-position: relative;
+
 }
 
 .offer:last-child{
@@ -297,7 +295,6 @@ position: relative;
 }
 .offer__img {
     border-radius: 5px 5px 0px 0px;
-    position: absolute;
     top: 0;
     right: 0;
 }
@@ -378,7 +375,7 @@ color: #000000;
 }
 
 .form__hero{
-    height: 500px;
+    
     background-color: #FFFFFF;
     padding: 40px 60px 37px 60px;
     border-radius: 0 0 5px 5px;
@@ -410,8 +407,8 @@ display: block;
 }
 
 .form__btn{
-    padding: 14px 97px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .form__condition{
@@ -421,4 +418,8 @@ font-size: 14px;
 line-height: 120%;
 color: #9C9C9C;
 margin: 0;
+}
+
+.offer__info-wrap{
+    padding: 33px 40px 40px 40px;
 }
